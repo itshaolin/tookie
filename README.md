@@ -1,7 +1,7 @@
-# tookies
-Go Secure Cookies compatible with Tornado ones in Python
+# tookie
+Echo webserver Secure Cookies compatible with Tornado ones in Python
 
 ## Installation
 ~~~
-go get -u github.com/itshaolin/tookies
+go get -u github.com/itshaolin/tookie
 ~~~
