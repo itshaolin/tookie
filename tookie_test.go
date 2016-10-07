@@ -18,12 +18,12 @@ func TestTools(t *testing.T) {
             g.Assert(r).Equal("...")
         })
 
-        g.It("no rest error", func() {
+        g.It("no rest panic", func() {
             defer g.AssertPanic()
             consumeFieldV2("3:zxc")
         })
 
-        g.It("malformed field error", func() {
+        g.It("malformed field panic", func() {
             defer g.AssertPanic()
             consumeFieldV2("5:zxc|Tail")
         })
